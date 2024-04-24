@@ -1,0 +1,17 @@
+/* ImageGallery.css */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 0 0 calc(25% - 20px);
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+  }
+  
